@@ -11,7 +11,7 @@ namespace sqlconnect
         {
            string sqlconnectStr = @"Data Source=DESKTOP-CUA-TAO\SQLEXPRESS;Initial Catalog=xtlab;User ID=SA;Password=vuka427";
             DbConnection connection = new SqlConnection(sqlconnectStr);
-            
+            //// abc xyz
             Console.WriteLine(connection.State);
             connection.Open();                      // Mở kết nối - hoặc  connection.OpenAsync(); nếu dùng async
 
